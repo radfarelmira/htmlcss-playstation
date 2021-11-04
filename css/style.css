@@ -18,7 +18,7 @@ header{
     font-family: Helvetica, arial, sans-serif;
 
     /* test */
-    height: 200px;
+    height: 150px;
     background-color: blanchedalmond;
 }
 
@@ -27,20 +27,28 @@ header ul{
     padding: 0;
 }
 
+/* Header top */
 .header-top{
     background-color: black;
-    height: 20%;  
+    height: 50px;  
 }
 
+.header-top .container-fluid{
+    height: 100%; 
+}
+
+.sony-logo-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 
 .sony-logo{
-    width:100%;
-    padding-top: 10px;
-
-    /* test */
-    /* background-color: chartreuse; */
+    max-width: 120px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 
-.sony-logo img{
-    max-width: 100px;
-}
+/* Haeder nav */

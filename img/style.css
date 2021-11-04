@@ -17,12 +17,8 @@ img{
 header{
     font-family: Helvetica, arial, sans-serif;
 
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: white;
-    /* z-index: 1; */
+    /* test */
+    background-color: blanchedalmond;
 }
 
 header ul{
@@ -49,12 +45,7 @@ header ul{
 /* Nav logo */
 nav {
     padding-top: 15px;
-}
-
-@media (min-width: 992px) { 
-    nav {
-        padding: 5px 0;
-    }
+    padding-bottom: 5px;
 }
 .nav-logo img{
     width: 80px;
@@ -62,7 +53,7 @@ nav {
 
 /* Burger */
 .burger{
-    font-size: 35px;
+    font-size: 40px;
     text-align: right;
 }
 
@@ -77,34 +68,24 @@ nav {
 /* Menu container*/
 .menu-container{
     color: black;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
 }
 
 /* Menu left */
-.menu-left img,
-.menu-right img{
-    width: 10px;
-    margin-left: 3px;
+.menu-left img{
+    width: 15px;
+    margin-left: 5px;
 }
 
-.menu-left li,
-.menu-right li{
+.menu-left li{
     display: inline-block;
-    margin-left: 10px;
 }
 
-.menu-left a,
-.menu-right a{
+.menu-left a{
     display: inline-block;
     color: inherit;
     text-decoration: none;
-
-}
-
-.menu-right .lens{
-    width: 25px;
-    vertical-align: middle;
 
 }
 
@@ -113,42 +94,5 @@ nav {
     text-align: right;
 }
 
-.menu-right .btn-dark{
-    color: white;
-    border-radius: 50px;
-}
-
-/* MAIN */
-main{
-    margin-top: 134px;
-}
-
-/* Banner */
-.banner{
-    color: white;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bg-returnal{
-    background-image: url(../img/jumbo-bg.png);
-}
-
-.banner-content{
-    width: 100%;
-    padding-top: 300px;
-}
-
-.banner-img{
-    width: 60%;
-}
-
-@media (min-width: 992px) { 
-    .banner-content {
-        width: 50%;
-    }
-}
 
 

@@ -3,8 +3,44 @@ body{
     font-family: Arial, sans-serif;
 }
 
+/* list */
+ul{
+    list-style-type: none;
+}
+
+/* images */
+img{
+    width: 100%;
+}
 
 /* HEADER */
 header{
     font-family: Helvetica, arial, sans-serif;
+
+    /* test */
+    height: 200px;
+    background-color: blanchedalmond;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-top{
+    background-color: black;
+    height: 20%;  
+}
+
+
+.sony-logo{
+    width:100%;
+    padding-top: 10px;
+
+    /* test */
+    /* background-color: chartreuse; */
+}
+
+.sony-logo img{
+    max-width: 100px;
 }

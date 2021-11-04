@@ -18,7 +18,6 @@ header{
     font-family: Helvetica, arial, sans-serif;
 
     /* test */
-    height: 150px;
     background-color: blanchedalmond;
 }
 
@@ -30,25 +29,36 @@ header ul{
 /* Header top */
 .header-top{
     background-color: black;
-    height: 50px;  
-}
-
-.header-top .container-fluid{
-    height: 100%; 
-}
-
-.sony-logo-container{
-    width: 100%;
-    height: 100%;
-    position: relative;
 }
 
 .sony-logo{
-    max-width: 120px;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
+    width: 100%;
+    text-align: right;
+    padding: 10px 0;
+}
+
+.sony-logo img{
+    width: 100px;
 }
 
 /* Haeder nav */
+/* nav logo */
+nav {
+    padding-top: 20px;
+}
+.nav_logo img{
+    width: 80px;
+}
+
+.burger{
+    font-size: 40px;
+    text-align: right;
+}
+
+.burger a{
+    display: inline-block;
+    color: #afafaf;
+    border: 1px solid #afafaf;
+    padding: 0 25px;
+    border-radius: 5px;
+}

@@ -194,22 +194,22 @@ section {
     padding-top: 200px;
 }
 
-/* New PS5 section */
-.single-new-element img{
+/* PS5 section */
+.single-ps5-element img{
     border-radius: 10px;
     padding: 3px;
 }
 
-.single-new-element img:hover {
+.single-ps5-element img:hover {
     box-shadow: 0 0 3px 1px rgba(0, 140, 186, 0.9);
   }
 
-.new-ps5 .slogan{
+.ps5 .slogan{
     color: #0f7bd1;
     text-transform: uppercase;
 }
 
-.new-ps5 .textarea{
+.ps5 .textarea{
     padding-top: 100px;
 }
 
@@ -246,7 +246,6 @@ section {
 }
 
 .new-games-elements{
-    margin-top: 20px;
     font-size: 14px;
 }
 

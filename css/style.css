@@ -13,14 +13,18 @@ img{
     width: 100%;
 }
 
+/* Cards */
+.card {
+    border: none;
+}
+
 /* Titel and text */
 h2{
     font-size: 40px;
 }
 
 /* color */
-.gray{
-    font-size: 20px;
+.ms_gray{
     color: #767676;
 }
 
@@ -41,6 +45,7 @@ header{
     left: 0;
     width: 100%;
     background-color: white;
+    z-index: 1;
 }
 
 header ul{
@@ -146,11 +151,9 @@ section {
 }
 
 .textarea p{
+    font-size: 20px;
+    font-weight: 600;
     margin-top: 20px;
-}
-
-.center{
-    text-align: center;
 }
 
 /* Banner */
@@ -161,28 +164,23 @@ section {
     background-position: center top;
 }
 
-.banner-content{
-    width: 100%;
-    padding-top: 250px;
-    padding-bottom: 30px;
+.banner img{
+    width: 60%;
 }
 
-.banner-img{
-    width: 60%;
+.banner-content{
+    width: 100%;
+    padding-top: 200px;
+}
+
+.banner p{
+    margin: 30px 0;
 }
 
 @media (min-width: 992px) { 
     .banner-content {
         width: 40%;
     }
-}
-
-.banner h2{
-    padding: 20px 0;
-}
-
-.banner p{
-    padding-bottom: 20px;
 }
 
 /* Returnal Section */
@@ -206,7 +204,6 @@ section {
 }
 
 .new-games .textarea{
-    margin-bottom: 0;
     padding-top: 100px;
 }
 
@@ -222,13 +219,14 @@ section {
     border-bottom: 2px solid #0f7bd1;
 }
 
-.elemet-info{
+.console-bottom-element p{
     padding-top: 15px;
     display: none;
 }
 
 @media (min-width: 768px) { 
-    .elemet-info{
+    .console-bottom-element p{
         display: block;
     }
 }
+

@@ -13,6 +13,16 @@ img{
     width: 100%;
 }
 
+/* Titel and text */
+h2{
+    font-size: 40px;
+}
+
+.gray{
+    font-size: 20px;
+    color: #767676;
+}
+
 /* HEADER */
 header{
     font-family: Helvetica, arial, sans-serif;
@@ -124,6 +134,16 @@ main{
 section {
     padding: 50px 0;
 }
+
+.textarea{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.textarea p{
+    margin-top: 20px;
+}
+
 /* Banner */
 .banner{
     color: white;
@@ -149,7 +169,6 @@ section {
 }
 
 .banner h2{
-    font-size: 40px;
     padding: 20px 0;
 }
 
@@ -173,7 +192,18 @@ section {
     border-radius: 10px;
     padding: 3px;
 }
-  
+
 img:hover {
     box-shadow: 0 0 3px 1px rgba(0, 140, 186, 0.9);
   }
+
+.new-games .slogan{
+    color: #0f7bd1;
+    text-transform: uppercase;
+}
+
+.new-games .textarea{
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+

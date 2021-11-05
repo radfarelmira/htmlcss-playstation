@@ -18,10 +18,20 @@ h2{
     font-size: 40px;
 }
 
+/* color */
 .gray{
     font-size: 20px;
     color: #767676;
 }
+
+/* Button */
+.ms_btn{
+    color:white;
+    border-radius: 50px;
+}
+ .ms_red_btn{
+     background-color: #cd3d0f;
+ }
 
 /* HEADER */
 header{
@@ -135,13 +145,12 @@ section {
     padding: 50px 0;
 }
 
-.textarea{
-    text-align: center;
-    margin: 50px 0;
-}
-
 .textarea p{
     margin-top: 20px;
+}
+
+.center{
+    text-align: center;
 }
 
 /* Banner */
@@ -176,12 +185,6 @@ section {
     padding-bottom: 20px;
 }
 
-.banner-content .ms_red_btn{
-    color:white;
-    border-radius: 50px;
-    background-color: #cd3d0f;
-}
-
 /* Returnal Section */
 .bg-returnal{
     background-image: url(../img/jumbo-bg.png);
@@ -193,7 +196,7 @@ section {
     padding: 3px;
 }
 
-img:hover {
+.single-new-element img:hover {
     box-shadow: 0 0 3px 1px rgba(0, 140, 186, 0.9);
   }
 
@@ -204,6 +207,28 @@ img:hover {
 
 .new-games .textarea{
     margin-bottom: 0;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
+/* Console Section */
+.console-bottom-element{
+   text-align: center;
+   opacity: 0.7;
+   padding-bottom: 20px;
+}
+
+.console-bottom-element:hover{
+    opacity: 100;
+    border-bottom: 2px solid #0f7bd1;
+}
+
+.elemet-info{
+    padding-top: 15px;
+    display: none;
+}
+
+@media (min-width: 768px) { 
+    .elemet-info{
+        display: block;
+    }
+}

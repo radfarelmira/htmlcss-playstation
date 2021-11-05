@@ -135,7 +135,7 @@ section {
 .banner-content{
     width: 100%;
     padding-top: 250px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .banner-img{
@@ -144,7 +144,7 @@ section {
 
 @media (min-width: 992px) { 
     .banner-content {
-        width: 30%;
+        width: 40%;
     }
 }
 
@@ -169,6 +169,11 @@ section {
 }
 
 /* New games section */
-.new-games img{
-    border
+.single-new-element img{
+    border-radius: 10px;
+    padding: 3px;
 }
+  
+img:hover {
+    box-shadow: 0 0 3px 1px rgba(0, 140, 186, 0.9);
+  }

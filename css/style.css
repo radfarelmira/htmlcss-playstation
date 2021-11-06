@@ -337,3 +337,54 @@ section {
     }
  }
 
+ /* FOOTER */
+footer{
+     background-color: #00439c;
+     color: white;
+     padding: 60px 0;
+}
+
+/* Footer top */
+.logo-ps img{
+     max-width: 100px;
+}
+
+.logo-globe img{
+    max-width: 20px;
+    margin-right: 8px;
+}
+
+.logo-ps,
+.logo-globe{
+     padding: 20px 0;
+}
+
+.footer-links{
+     margin: 20px 0;
+}
+
+.footer-links li{
+    margin-bottom: 10px;
+}
+
+/* Footer bottom */
+.footer-bottom{
+    padding-top: 20px;
+}
+
+.sie-logo img{
+    max-width: 130px;
+}
+
+.sie-logo{
+    padding: 5px 0;
+}
+
+@media (min-width: 992px) { 
+    .footer-bottom{
+        width: 50%; 
+    }
+}
+
+ 
+

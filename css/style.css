@@ -34,6 +34,13 @@ h3{
 h4{
     font-weight: bold;
 }
+
+/* Symbols */
+.trademark{
+    font-size: 16px;
+    vertical-align: super;
+}
+
 /* color */
 .ms_gray{
     color: #767676;
@@ -267,11 +274,6 @@ section {
 }
 
 /* PS4 Section */
-.ps4 .trademark{
-    font-size: 16px;
-    vertical-align: super;
-}
-
 .elements{
     padding: 40px 0;
 }
@@ -378,6 +380,10 @@ footer{
 
 .sie-logo{
     padding: 5px 0;
+}
+
+.footer-bottom a{
+    color:inherit;
 }
 
 @media (min-width: 992px) { 

@@ -40,10 +40,12 @@ h3{
 .ms_btn{
     color:white;
     border-radius: 50px;
+    font-weight: 600;
 }
- .ms_red_btn{
+
+.ms_red_btn{
      background-color: #cd3d0f;
- }
+}
  
  
 /* HEADER */
@@ -188,7 +190,7 @@ section {
     }
 }
 
-/* Returnal Section */
+/*Jumbotron Returnal Section */
 .bg-returnal{
     background-image: url(../img/jumbo-bg.png);
 }
@@ -234,9 +236,14 @@ section {
     .console-bottom-element p{
         display: block;
     }
+
+    .console-bottom-element img{
+        width: 50%;
+        margin: auto;
+    }
 }
 
-/* Takes-two section */
+/*Jumbotron Takes-two section */
 .bg-takes-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
@@ -262,10 +269,53 @@ section {
     vertical-align: super;
 }
 
-.ps4-elements{
-    margin-top: 20px;
+.elements{
+    margin: 40px 0;
 }
 
-.ps4-elements p{
+.single-ps4-elements p{
     font-size: 22px;
 }
+
+/* Banner*/
+.banner{
+    padding: 0;
+}
+
+.banner-textarea img{
+    width: 55%;
+}
+
+.banner-textarea{
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 768px) { 
+    .banner-textarea{
+        padding: 0;
+    }
+}
+
+/* Banner PS-Plus section */
+.banner.ps-plus{
+    background-color: #bebcbb;
+}
+
+.ms_btn_plus{
+    color: #2f65e6;
+    background-color: #d9dadc;
+}
+
+/* Banner PS-Plus section */
+.banner.ps-now{
+    background-color: #161c3b;
+    color: white;
+}
+
+.ms_btn_now{
+    color: #161c3b;
+    background-color: #d9dadc;
+}
+

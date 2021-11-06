@@ -217,7 +217,7 @@ section {
 
 .single-ps5-element img:hover {
     box-shadow: 0 0 3px 1px rgba(0, 140, 186);
-  }
+}
 
 .ps5 .slogan{
     color: #0f7bd1;
@@ -330,14 +330,14 @@ section {
         width: 80%;
         margin: auto;
     }
- }
+}
 
 @media (min-width: 992px) { 
     .social .elements{
         width: 60%;
         
     }
- }
+}
 
  /* FOOTER */
 footer{

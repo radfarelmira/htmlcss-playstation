@@ -31,6 +31,9 @@ h3{
     font-size: 35px;
 }
 
+h4{
+    font-weight: bold;
+}
 /* color */
 .ms_gray{
     color: #767676;
@@ -159,7 +162,7 @@ section {
 }
 
 .textarea p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-top: 20px;
 }
@@ -206,7 +209,7 @@ section {
 }
 
 .single-ps5-element img:hover {
-    box-shadow: 0 0 3px 1px rgba(0, 140, 186, 0.9);
+    box-shadow: 0 0 3px 1px rgba(0, 140, 186);
   }
 
 .ps5 .slogan{
@@ -270,7 +273,7 @@ section {
 }
 
 .elements{
-    margin: 40px 0;
+    padding: 40px 0;
 }
 
 .single-ps4-elements p{
@@ -318,4 +321,19 @@ section {
     color: #161c3b;
     background-color: #d9dadc;
 }
+
+/* Social Section */
+@media (min-width: 768px) { 
+    .social .elements{
+        width: 80%;
+        margin: auto;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .social .elements{
+        width: 60%;
+        
+    }
+ }
 

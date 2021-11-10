@@ -143,7 +143,6 @@ nav {
     display: inline-block;
     color: inherit;
     text-decoration: none;
-
 }
 
 #white{
@@ -292,20 +291,28 @@ section {
 }
 
 .banner-textarea{
-    font-weight: 600;
-    padding-top: 40px;
-    padding-bottom: 20px;
+   width: 100%;
+   padding: 20px 0;
 }
 
 @media (min-width: 768px) { 
     .banner-textarea{
-        padding: 0;
+        width: 50%;
     }
 }
 
 /* Banner PS-Plus section */
 .banner.ps-plus{
     background-color: #bebcbb;
+}
+
+@media (min-width: 768px) { 
+    .ps-plus-bg{
+        background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
 }
 
 .ms_btn_plus{
@@ -317,6 +324,15 @@ section {
 .banner.ps-now{
     background-color: #161c3b;
     color: white;
+}
+
+@media (min-width: 768px) { 
+    .ps-now-bg{
+        background-image: url(../img/ps-now-april-featured-image-block.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
 }
 
 .ms_btn_now{
@@ -358,11 +374,11 @@ footer{
 
 .logo-ps,
 .logo-globe{
-     padding: 20px 0;
+    padding: 20px 0;
 }
 
 .footer-links{
-     margin: 20px 0;
+    margin: 20px 0;
 }
 
 .footer-links li{
